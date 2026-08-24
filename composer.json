@@ -1,0 +1,32 @@
+{
+	"name": "mrblue/php-router",
+	"type": "library",
+	"description": "Simple and ultra-fast PHP Router",
+	"keywords": [
+		"router"
+	],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Marco Chiodo",
+			"email": "info@marcochiodo.it"
+		}
+	],
+	"require": {
+		"php": ">=8.5"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^12.0"
+	},
+	"suggest": {},
+	"autoload": {
+		"psr-4": {
+			"mrblue\\PhpRouter\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Controller\\": "test/Fixture/Main/"
+		}
+	}
+}
